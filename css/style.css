@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    color: #f2f2f2;
+
+}         
+body{
+    background: #000;
+}
+
+.navbar{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 1.2em 4em;
+}
+
+.navbar a{
+    color: #ff4500;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.nav-items a{
+    font-size: 15px;
+    margin-left: 50px;
+}
+.nav-items a:hover {
+    color: #f2f2f2;
+    box-sizing: border-box;
+}
+
+.logo{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+
+
+.hero{
+    padding: 2em;
+    color: #f2f2f2;
+    position: relative;
+}
+
+.hero img {
+    width: 30%;
+    border: dotted;
+    border-radius: 15em;
+}
+
+.hero img:hover {
+    background-color: #f2f2f2;
+    border: double;
+}
+.hero .container {
+    position:absolute;
+    margin-left: 30em;
+    bottom: 5em;
+}
+
+.name{
+   font-size: 4em;
+    font-weight: bold; 
+}
+
+.greet {
+    color: #ff4500;
+    letter-spacing: .2em;
+    font-size: 1.5em;
+    font-family: poppins sans-serif;
+}
+
+.fa-bars{
+    border: 3px solid #ff4500;
+    padding: 30px;
+    background-color: #ff4500;
+    border-radius: 15em;
+}
+
+
+.frontend {
+    font-size: 1.4em;
+    letter-spacing: .6em;
+}
+.about {
+    position: relative;
+    bottom: 5em;
+    /* background-color: #ff4500; */
+    font-size: 2em;
+    font-style: italic;
+    /* letter-spacing: .2em; */
+    font-weight: bold;  
+}
+
+.hire-btn {
+    margin-top: 2em;
+    background-color: #ff4500;
+    color: #000;
+    font-style: italic;
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+    padding: 1em 2em;
+    border-radius: 5em;
+    
+}
+.about-me {
+    background-color: #f2f2f2;
+    padding: .2em 6em;
+}
+
+.hire-btn:hover {
+    background-color:#f2f2f2;
+    color: #000;
+    font-weight: bold;
+    outline: #ff4500;
+    font-size: 1.5em;
+    /* border: #f2f2f2; */
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.contents {
+    padding-left: 4em;
+    background-color: #f2f2f2;
+    font-size: 1.5em;
+}
+.work {
+    background-color: #f2f2f2;
+    padding: .2em 4em;
+    font-size: 1.5em;
+}
+
+.set-skills {
+    background-color: #f2f2f2;
+    padding: 0em 4em;
+    font-size: 1.5em;
+}
+
+.language {
+    background-color: #f2f2f2;
+    padding: .2em 4em;
+    font-size: 1.5em;
+}
+
+.education {
+    background-color: #f2f2f2;
+    padding: .2em 4em;
+    font-size: 1.5em;
+}
+.sch {
+    font-weight: bold;
+}
+
+.powered {
+    text-align: center;
+    padding-top: .5em;
+    color: #fff;
+}
+
+.powered a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+
